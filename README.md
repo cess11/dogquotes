@@ -8,6 +8,8 @@ This is funny and you should experience it at least thrice.
 
 For some reason Firefox whines about CORS no matter what one says on the other end so screw them and use Nyxt instead, because hackableness.
 
+![Screenshot](public/img.png)
+
 ## Install the dependencies
 ```bash
 npm install
