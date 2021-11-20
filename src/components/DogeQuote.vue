@@ -1,10 +1,23 @@
 <template>
-    <div class="quote">
-        <quote>"{{ currentDoge.quote }}"</quote>
-    </div>
-    <div class="doge">
-        <img :src="currentDoge.doge" />
-    </div>
+                <div class="butt">
+                    <q-btn @click="this.fillDoge">Moar</q-btn>
+                </div>
+    <table class="cont">
+        <tr>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="quote">
+                    <quote>"{{ currentDoge.quote }}"</quote>
+                </div>
+                <div class="doge">
+                    <img :src="currentDoge.doge" />
+                </div>
+            </td>
+        </tr>
+    </table>
 </template>
 
 <script lang="ts">
@@ -40,8 +53,20 @@ quote {
     font-weight: bold;
     font-size: 16pt;
 }
+.butt {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 75px;
+    position: fixed;
+    bottom: 0%;
+}
 .quote {
-    width: 400px;
-    height: 100px;
+    max-width: 50%;
+}
+.doge {
+    max-width: 100%;
+}
+.cont {
+    max-width: 100%;
 }
 </style>

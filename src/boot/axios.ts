@@ -14,7 +14,7 @@ declare module '@vue/runtime-core' {
 // "export default () => {}" function below (which runs individually
 // for each client)
 const dogeapi = axios.create({
-  baseURL: 'http://localhost:9090',
+  baseURL: 'https://internetpatrullen.se/dugedonapi',
   headers: {
     'Content-Type': 'application/json',
   }
