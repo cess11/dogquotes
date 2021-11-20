@@ -1,23 +1,13 @@
 <template>
                 <div class="butt">
-                    <q-btn @click="this.fillDoge">Moar</q-btn>
+                    <q-btn @click="this.fillDoge">Next</q-btn>
                 </div>
-    <table class="cont">
-        <tr>
-            <td>
-            </td>
-        </tr>
-        <tr>
-            <td>
                 <div class="quote">
                     <quote>"{{ currentDoge.quote }}"</quote>
                 </div>
                 <div class="doge">
                     <img :src="currentDoge.doge" />
                 </div>
-            </td>
-        </tr>
-    </table>
 </template>
 
 <script lang="ts">
@@ -56,9 +46,10 @@ quote {
 .butt {
     width: 50px;
     height: 50px;
-    margin-bottom: 75px;
+    margin-bottom: 50px;
     position: fixed;
     bottom: 0%;
+    right: 10%;
 }
 .quote {
     max-width: 50%;
