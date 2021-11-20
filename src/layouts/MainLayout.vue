@@ -4,7 +4,16 @@
       <q-toolbar>
 
         <q-toolbar-title>
-           Quotes from Doge
+          <q-item>
+          <router-link to='/'>
+            Quotes 
+          </router-link>
+          </q-item>
+          <q-item>
+          <router-link to='/about'>
+            About
+          </router-link>
+          </q-item>
         </q-toolbar-title>
 
       </q-toolbar>
